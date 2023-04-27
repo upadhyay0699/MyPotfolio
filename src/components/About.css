@@ -1,0 +1,116 @@
+.maincontainer{width: 80%; margin: auto;padding:auto;}
+.backbutton{
+    border-radius: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: white;
+color: #65b8bb; 
+float: right;
+margin-top: 30px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.backbutton a{color: #65b8bb; }
+.Aboutcontainer{width: 100%;margin: auto;margin-top: 15px;}
+
+.praabout{
+    font-size: 18px;
+    font-weight: 300;
+    width: 45%;
+    padding-left: 30px;
+}
+.experiencewhatskill{width: 87%; margin: auto; margin-top: 17PX; display: flex; }
+.experience1{width: 32%;}
+.abouti{width: 30%;}
+.abouti img{width: 574px;margin-top: 55px;} 
+.whatskill{width: 32%;} 
+.experience1 h2{margin-top: 20px;margin-bottom: 20px;}
+.whatskill h2{margin-top: 20px;margin-bottom: 20px;}
+.experience1 h3{margin-top: 16px;margin-bottom: 16px;}
+.experience1 p{margin-top: 10px;margin-bottom: 10px;}
+.skilld{    border-radius: 20px;
+    width: 26%;
+    height: 31px;
+    background-color: #f5f5f5;
+    padding-left: 12px;
+    padding-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.skildisplay{display: flex; justify-content: space-between; margin-top: 10px;
+}
+.skildisplay1{display: flex;margin-top: 10PX; }
+.mr-27{margin-left: 27px;}
+.aayuimg{width: 8%;}
+.aayupra{display: flex;margin-left: 6em; margin-top: 10px;}
+
+@media (max-width: 1600px) {
+    .aayupra{margin-left: 5em;}
+    .frontend {padding: 0px 78px;}
+    .skilld {padding-left: 17px;padding-right: 9px;margin-right: -17px;font-size: 13px;}
+    
+   
+   
+   
+
+}
+@media  (max-width: 1440px){
+    .skilld{font-size: 13px;margin-right: -20px;}
+    .aayuimg{width: 11%;}
+    .aayupra{margin-left: 4.3em;}
+    .abouti img{width: 554px;}
+    
+    
+}
+@media (max-width:1366px) {
+    .skilld{font-size: 12px;margin-right: -23px;}
+    .abouti img{width: 553px;}
+
+}
+@media (max-width:1280px) {
+    .abouti img{width: 461px;}
+   
+}
+
+@media (max-width:1024px) {
+
+   .abouti img{width: 450px;}
+
+}
+
+
+
+@media (max-width:991px) {
+  
+}
+
+
+
+@media (max-width:767px) {
+   
+   
+}
+
+
+@media (max-width: 576px) {
+    .maincontainer{width: 100%;}
+    .aayupra{display: block; margin-left: 0;}
+    .abouti img {
+        width: 90%;
+        margin-top: 11px;
+    }
+    .praabout{width: 100%; padding-top: 50px;}
+    .experiencewhatskill{display: block;
+        width: 100%;}
+    .experience1{width: 100%; text-align: center;}
+    .whatskill {width: 100%;}
+    .abouti {width: 100%;}
+    .skildisplay{display: inline-table;}
+    .skilld{margin-bottom: 19px; width: 97%;}
+    .aayuimg{width: 100%;}
+    .butonpostion-40{top: 118px;}
+    .praabout{padding-left: 0;text-align: center;}
+
+
+}

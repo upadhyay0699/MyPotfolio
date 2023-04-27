@@ -1,0 +1,69 @@
+.maincontainer{width: 80%; margin: auto;padding:auto;}
+.backbutton{
+    border-radius: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: white;
+color: #65b8bb; 
+float: right;
+margin-top: 30px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.backbutton a{color: #65b8bb; }
+.contactimg{width: 50%;}
+.infocontact{ 
+    
+   
+    width: 50%;
+    height: 420px;
+    background-color: #a1b1b1;
+    box-shadow: rgba(179, 176, 176, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.combineimg {}
+.phoneinfo{margin: auto;padding: auto;width: 69%;margin-top:-2px; }
+.phoneinfo{margin-top: -2px;}
+.icontesxt{display: flex; margin-right: 20px;height: 30px;
+    margin-top: 29px;}
+.phoneinfo{padding-top: 24px;}
+
+.icontesxt h3{padding-left: 30px;}
+.contactform{
+    height: 418px;
+    width: 40%;
+    position: absolute;
+    top: 137px;
+    right: 156px;
+    box-shadow: rgba(179, 176, 176, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #a1b1b1;
+}
+
+.contact2{
+    position: absolute;
+    top: 408px;
+    right: 205px;
+    height: 554px;}
+.background-20{width: 80%; margin: auto;background-color: #fff;height: 373px; }
+.contactushed{text-align: center;}
+.linkdinapp h1{text-align: center;padding-top: 154px;}
+@media (max-width: 576px) {
+    .maincontainer{width: 100%;}
+    .contactimg{width: 100%;}
+    .contactform{    width: 89%;
+        right: 0;
+        top: 338px;
+        bottom: 61px;
+        left: 21px;}
+        .infocontact{    width: 100%;
+            margin-top: 447px;}
+            .contact2{right: 0;
+                width: 44%;
+                top: 792px;}
+                .phoneinfo{font-size: 12px;}
+                .icontesxt h3 {padding-left: 9px;}
+
+.linkdinapp h1{font-size: 12px;}
+
+}

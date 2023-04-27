@@ -1,0 +1,39 @@
+.banerimage{width: 80%; margin: auto;padding: auto; margin-top: 62px; display: flex;}
+
+.aboutexplain{width: 48%;}
+.aboutexplain{width: 48%;}
+.aboutheading{margin-bottom: 20px;}
+.hereme{padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    color: white;
+    background-color: rgb(96, 175, 175);
+    font-size: 22px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.herresume{margin-top: 40px;}
+.Resumedown{padding-left: 60px;
+    margin-left: 40px;
+    padding-right: 60px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    .reactbutton{
+        margin-top: 50px;
+
+
+    }
+    .reactbutton button{height: 30px;margin-right: 35px; padding-left: 10px;padding-right: 10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    
+    /*media query*/
+    @media (max-width: 576px) {
+
+        .banerimage{width: 100%; border:  2px solid green}
+     }
+    

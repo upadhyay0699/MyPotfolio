@@ -1,0 +1,91 @@
+Link{text-decoration: none;}
+.banerimage{width: 80%; margin: auto;padding: auto; margin-top: 62px; display: flex; background-color:rgb(195 220 220); ;}
+
+.aboutexplain{width: 48%;}
+.aboutexplain{width: 48%;}
+.aboutheading{margin-bottom: 20px;}
+.hereme{
+    
+    color: white;
+    background-color: rgb(96, 175, 175);
+    font-size: 22px;
+    font-weight: 600;
+    width: 31%;
+    height: 40px;
+    padding-top: 10px;
+    
+    text-align: center;
+    box-shadow: rgba(187, 185, 185, 0.804) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.herresume{margin-top: 40px; width: 100%; display: flex;}
+.hereme  a{color: white;text-decoration-line: none; }
+.Resumedown a {color: white;text-decoration-line: none;}  
+.Resumedown{
+   
+    width: 31%;
+    margin-left: 40px;
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 10px;
+    text-align: center;
+     height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    .reactbutton{
+        margin-top: 50px;
+   
+
+
+    }
+    .reactbutton button{height: 30px;margin-right: 31px; padding-left: 10px;padding-right: 10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    @media (max-width: 1600px) {
+        .banerimage{width: 100%;}
+        .banerimg{width: 56% ;margin-left: 10px;}
+       
+       
+
+    }
+    @media  (max-width: 1440px){
+        
+        
+    }
+    @media (max-width:1366px) {
+    }
+    @media (max-width:1280px) {
+        .reactbutton button{margin-right: 17px;}
+    }
+    
+    @media (max-width:1024px) {
+        .reactbutton button{margin-right: 15px;}
+
+       
+    }
+    
+    
+    
+    @media (max-width:991px) {
+        .reactbutton button{margin-right: 11px;}
+        .Resumedown{width: 48%;}
+        .hereme{width: 48%;}
+    }
+    
+    
+    
+    @media (max-width:767px) {
+        .reactbutton button{margin-right: 6px;}
+       
+    }
+
+    @media (max-width: 576px) {
+        .banerimage{width: 100%; display: block;}
+        .banerimg{width: 100%;}
+        .banerimg img{width: 97%;}
+        .aboutexplain{width: 98%;text-align: center;margin-right: 0px; padding: 0;}
+        .Resumedown{padding-left: 19px;margin-left: 24px; padding-right: 30px;}
+        .hereme{padding-left: 22px;padding-right: 20px;}
+        .reactbutton button{margin-right: 20px;}
+        .reactbutton{margin-left: 25px;}
+        .mt-bt{margin-top: 18px;margin-bottom: 30px;}
+        .abtul{margin-left: 6px;margin-right: 6px;}
+     }

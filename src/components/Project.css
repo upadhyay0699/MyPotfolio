@@ -1,0 +1,30 @@
+.maincontainer{width: 80%; margin: auto;padding:auto;}
+.backbutton{
+    border-radius: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: white;
+color: #65b8bb; 
+float: right;
+margin-top: 30px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.backbutton a{color: #65b8bb; }
+.project333{ display: flex;
+    margin: auto;
+    width: 80%;
+    padding-top: 70px;
+}
+    .prodis{width: 48%;background-color: #ffffffe3; border: 2px solid black;border-radius: 5px;}
+    .projectlist{padding-left: 22px; padding-top: 10px;}
+.projhead2{margin-top: 10px;margin-left: 5px;}
+@media (max-width: 576px) {
+    .project333{display: block; width: 100%;}
+    .maincontainer{width: 100%;}
+    .prodis{width: 100%;}
+    .proimg{width: 100%;}
+   
+}

@@ -1,0 +1,40 @@
+.maincontainer{width: 80%; margin: auto;padding:auto;}
+.backbutton{
+    border-radius: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: white;
+color: #65b8bb; 
+float: right;
+margin-top: 30px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.backbutton a{color: #65b8bb; }
+.maincontainer1{width: 80%; margin: auto; }
+.educationContainer{display: flex;}
+.classsection{width: 48%;background-color: #daddde;box-shadow: #5BC5BA 0px 54px 55px, #5BC5BA 0px -12px 30px, #5BC5BA 0px 4px 6px, #5BC5BA 0px 12px 13px, #5BC5BA 0px -3px 5px; border-radius: 30px;}
+.medal{display: flex;  margin-top: 30px;     margin-left: 22px;}
+.medal2{display: flex;margin-top: 12em;    margin-left: 22px;}
+.famedal{margin-right: 20px;margin-top: 29px}
+.educationhead{margin-bottom: 24px;margin-top: 24px; font-size: 52px;}
+.medal1{float: right; display: flex; margin-top: 80px;    margin-right: 22px;}
+.famedal1{
+    margin-right: 20px;
+    margin-top: 29px
+}
+.font-35{font-size: 35px;font-weight: 500;}
+.font-25{font-size: 25px;font-weight: 300;}
+@media (max-width: 576px) {
+    .educationContainer{display: block;}
+    .classsection{width: 100%;    height: 655px;}
+    .maincontainer1{width: 92%;}
+    .eduimg{width: 100%;    margin-top: 12px;}
+    .butonpostion-40 {right: 23px;top: 66px;}
+    .medal1 {margin-right: 0;}
+    .medal2{margin-left: 0;}
+    .medal{margin-left: 0;}
+    .backbutton {margin-top: -12px;}
+}

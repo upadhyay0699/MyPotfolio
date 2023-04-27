@@ -1,0 +1,51 @@
+.maincontainer{width: 80%; margin: auto;padding:auto;}
+.backbutton{
+    border-radius: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: white;
+color: #65b8bb; 
+float: right;
+margin-top: 30px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.backbutton a{color: #65b8bb; }
+.resumecontaine{border:1px solid black;width: 80%;background-color: white;height: 700px;}
+.Resumebox{background-color: white;
+    width: 75%;
+    margin: auto;
+    height: 900px;
+}
+.butonpostion-40{position: absolute;right: 40px;}
+.resumeformate{width: 80%; margin: auto;padding-top: 66px;}
+.resumdisplay{display: flex; justify-content: space-between;}
+.resumelink{margin-top: 18px;}
+.associate{margin-top: 30px;}
+.seprater{border-bottom: 2px solid gray;}
+.Frontedbuilt{margin-left: 45px;}
+.frontend1{margin-left: 15px;margin-top: 20px; margin-bottom: 30px;}
+.resumdisplay1{display: flex;justify-content: space-between;margin-left: 30px;}
+.mt-20{margin-top: 20px;}
+.download{    background-color: #65b8bb;
+    
+    height: 31px;
+    border-radius: 10px;
+    width: 19%;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    margin-left: 42%;
+    margin-top: 30px;
+}
+.download a{font-size: 19px; color: white;}
+.butonpostion-200{right: 200px; position: absolute;}
+@media (max-width: 576px) {
+    .Resumebox{width: 100%; }
+    .resumdisplay{display: block;}
+    .download{margin-left: 71px;
+        width: 50%;}
+        .butonpostion-200 {right: 0;left: 230px;}
+}

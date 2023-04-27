@@ -1,0 +1,30 @@
+.maincontainer{width: 80%; margin: auto;padding:auto;}
+.backbutton{
+    border-radius: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: white;
+color: #65b8bb; 
+float: right;
+margin-top: 30px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.backbutton a{color: #65b8bb; }
+.skillcontainer{width: 80%;margin: auto;border: 2px solid 1px;  }
+.skiimg{margin-left: 40px;position: absolute;}
+.testshadow{text-shadow: #65b8bb 3px 7px;font-size: 43px;}
+.skillpraa{margin-top: 30px;}
+.skillop{position: relative;}
+@media (max-width: 576px) {
+    .maincontainer1{width: 100%;}
+    .skiimg {margin-left: 0;position: relative;margin-top: 60px;}
+    .skillcontainer{width: 100%;}
+    .testshadow {text-align: center;}
+    .skillpraa{text-align: center;margin-left: 10px;
+        margin-right: 10px;}
+  .skillop {width: 100%;
+    margin-top: 75px;}
+}
